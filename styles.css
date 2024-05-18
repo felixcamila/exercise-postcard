@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+body {
+	background: black;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+	background: white;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+}
+.postcard-header {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.postcard-header h1 {
+	width: x;
+	height: x;
+}
+
+.postcard-body {
+	display: flex;
+	width: 100%;
+	height: 30vh;
+}
+
+input {
+	font-family: "Indie Flower", cursive;
+	outline: 0 none;
+	box-shadow: white;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gray;
+	font-family: "Indie Flower", cursive;
+	padding: 10px;
+}
